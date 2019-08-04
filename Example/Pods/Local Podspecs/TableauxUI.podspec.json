@@ -1,0 +1,22 @@
+{
+  "name": "TableauxUI",
+  "version": "0.1.0",
+  "summary": "A shorter description of TableauxUI.",
+  "description": "A longer description of the TableauxUI.",
+  "homepage": "https://github.com/defoye/TableauxUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "defoye": "erniedefoy3@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/defoye/TableauxUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TableauxUI/Classes/**/*"
+}

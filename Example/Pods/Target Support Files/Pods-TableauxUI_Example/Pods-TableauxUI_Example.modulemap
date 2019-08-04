@@ -1,0 +1,6 @@
+framework module Pods_TableauxUI_Example {
+  umbrella header "Pods-TableauxUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TableauxUI (0.1.0)
+
+DEPENDENCIES:
+  - TableauxUI (from `../`)
+
+EXTERNAL SOURCES:
+  TableauxUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TableauxUI: c022a452ab006afe327099a825af1ae12d621291
+
+PODFILE CHECKSUM: a2af7edd34b00fa1a36c8d1c713ce44078da8b5f
+
+COCOAPODS: 1.7.2
