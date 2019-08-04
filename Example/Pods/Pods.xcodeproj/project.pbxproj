@@ -59,11 +59,11 @@
 /* Begin PBXFileReference section */
 		09A15A19AEFF3A399D190941657168E3 /* TableTensor+InformationAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+InformationAdapter.swift"; sourceTree = "<group>"; };
 		0A8C47A48BE6199573504B9074D6717D /* TableTensor+TableViewDelegateAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+TableViewDelegateAdapter.swift"; sourceTree = "<group>"; };
-		0CAA4D3AEA2678A6C4B7F82091A3D8C2 /* Pods_TableauxUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableauxUI_Example.framework; path = "Pods-TableauxUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C7D72C4FC3EA5B6F87268EA53FB568 /* TableauxUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TableauxUI.framework; path = TableauxUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAA4D3AEA2678A6C4B7F82091A3D8C2 /* Pods_TableauxUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableauxUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C7D72C4FC3EA5B6F87268EA53FB568 /* TableauxUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableauxUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C7E721BE045FCB45AAF92731B0636F /* Pods-TableauxUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A000EAA4E8207D99A76B8ED08BC8F7D /* Pods-TableauxUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableauxUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1FB40917D60BC4241AA85D7E63D0ACBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1FB40917D60BC4241AA85D7E63D0ACBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		232766552D541EC3726F922987B6E99D /* Pods-TableauxUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Tests-Info.plist"; sourceTree = "<group>"; };
 		248E4710C551944AD84C794C0E7D1025 /* Pods-TableauxUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableauxUI_Example-umbrella.h"; sourceTree = "<group>"; };
 		2731C8283424D65621D7BC48BF04C218 /* Pods-TableauxUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableauxUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		3AC27B7E89B85C18EEE83B4F8BB822AA /* Pods-TableauxUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Example-Info.plist"; sourceTree = "<group>"; };
 		4308052B0DC0C06E28704358C57E0B9A /* Pods-TableauxUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableauxUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4864E96A83BBD1BEE1D49D3F35E62CA0 /* TableauxUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableauxUI-prefix.pch"; sourceTree = "<group>"; };
-		4AA9C756DC0614CF8C8A5A668A35ECAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4AA9C756DC0614CF8C8A5A668A35ECAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B6BF07C4362630AEDC0447168328255 /* TableauxDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxDataSource.swift; sourceTree = "<group>"; };
 		4C0B089ED5FF967C504E2E2616CD480F /* TableMatrixStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableMatrixStructs.swift; sourceTree = "<group>"; };
 		5B2C620CD41D206EC494CB957B8B9598 /* Pods-TableauxUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableauxUI_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -87,15 +87,15 @@
 		78EA537335D9FBC581F450C5832EDB75 /* TableTensor+TableViewDataSourceAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+TableViewDataSourceAdapter.swift"; sourceTree = "<group>"; };
 		7AAEC69F94AA94C83DB2FC3FD179E8AD /* TableauxUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TableauxUI-Info.plist"; sourceTree = "<group>"; };
 		827AAF9B5974C3FCF1621DD527E58809 /* TableTensor+BucketAdapter1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+BucketAdapter1.swift"; sourceTree = "<group>"; };
-		8C0E495F44A0437043827309DFE204AA /* TableauxUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TableauxUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C0E495F44A0437043827309DFE204AA /* TableauxUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TableauxUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8EAEE7F3C810CA0F14065E1FAA35F1AA /* TableauxPort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxPort.swift; sourceTree = "<group>"; };
 		917D029A90D6114D7BB8047E609B1509 /* TableauxUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableauxUI-dummy.m"; sourceTree = "<group>"; };
 		9A734BB8E9FF62F3E7543A943F294D43 /* TableTensor+PaintAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+PaintAdapter.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A21C4D7B000589ADB5371BE07A2F21E6 /* Pods-TableauxUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableauxUI_Example-dummy.m"; sourceTree = "<group>"; };
 		A85F4CFB819E5C117592F96482DBBA30 /* BucketAdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BucketAdapterProtocols.swift; sourceTree = "<group>"; };
 		B99C8638C67CB46948D2BF6B7D9C6320 /* Pods-TableauxUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableauxUI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C9E643CDBFB90F29A5F72655AA9D7DF1 /* Pods_TableauxUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableauxUI_Tests.framework; path = "Pods-TableauxUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E643CDBFB90F29A5F72655AA9D7DF1 /* Pods_TableauxUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableauxUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE57933D3E32048695A47E6D55BEC2AD /* Tableau.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tableau.swift; sourceTree = "<group>"; };
 		D3DF3ADDCB32251256F98254C11A1497 /* TableauViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauViewAdapter.swift; sourceTree = "<group>"; };
 		D827A0F4B2DF0EA21CD276C3EA80816B /* TableauxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxView.swift; sourceTree = "<group>"; };
@@ -144,7 +144,6 @@
 			children = (
 				A85F4CFB819E5C117592F96482DBBA30 /* BucketAdapterProtocols.swift */,
 			);
-			name = Bucket;
 			path = Bucket;
 			sourceTree = "<group>";
 		};
@@ -179,7 +178,6 @@
 				78EA537335D9FBC581F450C5832EDB75 /* TableTensor+TableViewDataSourceAdapter.swift */,
 				0A8C47A48BE6199573504B9074D6717D /* TableTensor+TableViewDelegateAdapter.swift */,
 			);
-			name = TableViewAdapters;
 			path = TableViewAdapters;
 			sourceTree = "<group>";
 		};
@@ -188,7 +186,6 @@
 			children = (
 				09A15A19AEFF3A399D190941657168E3 /* TableTensor+InformationAdapter.swift */,
 			);
-			name = InformationAdapter;
 			path = InformationAdapter;
 			sourceTree = "<group>";
 		};
@@ -242,7 +239,6 @@
 			children = (
 				9A734BB8E9FF62F3E7543A943F294D43 /* TableTensor+PaintAdapter.swift */,
 			);
-			name = PaintAdapters;
 			path = PaintAdapters;
 			sourceTree = "<group>";
 		};
@@ -270,7 +266,6 @@
 				8EAEE7F3C810CA0F14065E1FAA35F1AA /* TableauxPort.swift */,
 				D827A0F4B2DF0EA21CD276C3EA80816B /* TableauxView.swift */,
 			);
-			name = UITableView;
 			path = UITableView;
 			sourceTree = "<group>";
 		};
@@ -290,7 +285,6 @@
 				FDC53A06B32AA43334BC52C656E9A4F8 /* TableViewDataSourceAdapterProtocol.swift */,
 				74797A37E303BFAE750EAD6B0B9EC233 /* TableViewDelegateAdapterProtocol.swift */,
 			);
-			name = Table;
 			path = Table;
 			sourceTree = "<group>";
 		};
@@ -299,7 +293,6 @@
 			children = (
 				4C0B089ED5FF967C504E2E2616CD480F /* TableMatrixStructs.swift */,
 			);
-			name = Structs;
 			path = Structs;
 			sourceTree = "<group>";
 		};
@@ -336,7 +329,6 @@
 				827AAF9B5974C3FCF1621DD527E58809 /* TableTensor+BucketAdapter1.swift */,
 				2B3A6080069BE082C4C526D8B3496F4F /* TableTensor+BucketAdapter4.swift */,
 			);
-			name = BucketAdapters;
 			path = BucketAdapters;
 			sourceTree = "<group>";
 		};
@@ -379,7 +371,6 @@
 				086ACED52A8D77C1F390E6D748E737EA /* Bucket */,
 				AE5F0D957CE68DF752D6B724EC48CEAD /* Table */,
 			);
-			name = Protocols;
 			path = Protocols;
 			sourceTree = "<group>";
 		};
@@ -752,8 +743,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
