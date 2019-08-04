@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 	s.author           = { 'Ernest DeFoy' => 'erniedefoy3@gmail.com' }
 	s.source           = { :git => 'https://github.com/defoye/TableauxUI.git', :tag => '0.0.1' }
 	# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-	
+	 
 	s.ios.deployment_target = '12.2'
 	s.swift_versions = '4.2'
 	
