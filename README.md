@@ -22,7 +22,7 @@ pod 'TableauxUI'
 
 ## Author
 
-defoye, erniedefoy3@gmail.com
+Ernest DeFoy, erniedefoy3@gmail.com
 
 ## License
 
