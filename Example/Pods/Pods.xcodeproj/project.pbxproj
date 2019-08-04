@@ -7,17 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012AA9EC67B7B8D39B8066726FBFD2E8 /* TableauxPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7147D258FE3717F6BAA230F3F2A00D /* TableauxPort.swift */; };
+		0DB7B41EE8C77E970CB19A13F8540069 /* Tableau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5911CFDF22469C0805CC96AE5C4A18 /* Tableau.swift */; };
 		0FE83407252EEF6E5BAD856A2B86EBA6 /* Pods-TableauxUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 248E4710C551944AD84C794C0E7D1025 /* Pods-TableauxUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		146DC592643D74A0B02B3CB18BCB08E3 /* TableauxUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151916C0FE8B218D05B2C0CD36C5FB73 /* TableauxUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102C4A4D2D863FCA5B3DF78016441BEA /* TableTensor+TableViewDelegateAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EE7F2812629028129B0EAB4C0888F /* TableTensor+TableViewDelegateAdapter.swift */; };
+		2D2A86ECB77BE39B2C0C6904B62C1FD4 /* TableTensor+InformationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0FB26613406AF779B5C2B226632C /* TableTensor+InformationAdapter.swift */; };
 		341F43D15B860FBA79B994A947E176AB /* Pods-TableauxUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5F3782976818E51F5C981CC3DD46B /* Pods-TableauxUI_Tests-dummy.m */; };
-		42109C641899C840EA1F58BD2EE6056B /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C354295C411F76BFAC097C656A2CC14 /* BlinkingLabel.swift */; };
+		3DC8D753EC2E47AD3ED3284B0F32050F /* TableauCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D29F0226D2292165B434A33A1DA5D /* TableauCell.swift */; };
 		4BB09B5EC575590CF52A450E3F9BF54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		54361816942B2AEC5F4722A44B417510 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F61E6B07AA45258BD6121020456A39 /* ReplaceMe.swift */; };
+		50B0B6290AAE34779682DFA0738DC02E /* TableauxUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F387101B72C5679B490D40B89101770 /* TableauxUI-dummy.m */; };
+		629FE1EB91B06A818740A023E0FA12EA /* TableauProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2410CED2824F05F55BFB1A017C37DE2 /* TableauProtocols.swift */; };
+		64D81C85FB3AC2B7B7A571212A368778 /* TableTensor+BucketAdapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28ABBD6F7CA7E690945A829556836B2 /* TableTensor+BucketAdapter4.swift */; };
 		65435FD84C7F741635AD3D3B20DB4C7F /* Pods-TableauxUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2C620CD41D206EC494CB957B8B9598 /* Pods-TableauxUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A89DBE1FD2CE944573C96097CAEF24B /* TableauxUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B72083503ED40C08711959AA78C6800 /* TableauxUI-dummy.m */; };
+		6D828137BF12D224840F1D443376923C /* TableTensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E5CA14C072F9C00097A8448C593CB6 /* TableTensor.swift */; };
+		72EA5F843E8870C92D4977617929A5E1 /* TableauViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D27550DBEE1087F0D0ED00FF22FE5 /* TableauViewController.swift */; };
+		736DF086E677E79C5F4CC700252BB2E7 /* TableTensor+TableViewDataSourceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3CF12FEFDCC48CA96B5B582E5C53B /* TableTensor+TableViewDataSourceAdapter.swift */; };
+		7423CCD3C8164C45A5AAAA20669A5400 /* TableTensor+BucketAdapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90801FAE0E2940276F9F4FA3941B53D /* TableTensor+BucketAdapter1.swift */; };
+		8377E45CDA4F3AC44DAE54058CF9410B /* TableauxUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9D0FC674167D0599D250E8B7C1D987 /* TableauxUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9704B74BA26EA583306ACA6F1B202A07 /* TableMatrixStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F10F25AD2012E268731547C7137B696 /* TableMatrixStructs.swift */; };
+		A7364C02B2DAEA3D7C9DE6E5146F80BC /* TableauxDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB87E79853B4A87331742411D68906B /* TableauxDataSource.swift */; };
+		B79C8FB3A8C3481491E2B47C65442365 /* TableViewDelegateAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708331BD1A89F6F8A110C1B4045B71A1 /* TableViewDelegateAdapterProtocol.swift */; };
+		BB561F1C0F3FA6843B6769AA981EFEBA /* TableTensor+PaintAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F74D0A719871BC6BF2625E7EAEAB5 /* TableTensor+PaintAdapter.swift */; };
+		BC2C196992F13EB4188CCF8971716E6E /* TableauViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D004DC0AB60B7F18BB2953F77495EC /* TableauViewAdapter.swift */; };
+		D574ACC16B90A58DDB1FB9C5AB2AF94D /* TableauxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FEA053AC632AE2F76000332740087 /* TableauxView.swift */; };
 		D6D6B904F92E7864DC1993BAEF05D3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D733AAE10645F133E4BF75B17D2BBD5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E0F76D7B7303C77E5F3CBC70B0111076 /* BucketAdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2371D1B9A713FA3C4037351D36CB60 /* BucketAdapterProtocols.swift */; };
+		EA1722D0DD5494647276ED31AE4710D4 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABA11FA206B1A56D46FA3C7A0F15E8 /* MainProtocols.swift */; };
+		F14C791ABE9957A105949BD02E03D37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F2085011EF0CB3855AD578B843E482CF /* TableViewDataSourceAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF67A583A8D502282DD9F0D2B09310B /* TableViewDataSourceAdapterProtocol.swift */; };
 		FDB6B100E3AE16C5696E304D7637AF06 /* Pods-TableauxUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C4D7B000589ADB5371BE07A2F21E6 /* Pods-TableauxUI_Example-dummy.m */; };
+		FE3C8B8B4E0EE66203C66DABC59AD8F1 /* TableauxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2C2025DD09856B118D1963968F954 /* TableauxDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,47 +57,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CAA4D3AEA2678A6C4B7F82091A3D8C2 /* Pods_TableauxUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableauxUI_Example.framework; path = "Pods-TableauxUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C7D72C4FC3EA5B6F87268EA53FB568 /* TableauxUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TableauxUI.framework; path = TableauxUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		151916C0FE8B218D05B2C0CD36C5FB73 /* TableauxUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableauxUI-umbrella.h"; sourceTree = "<group>"; };
+		07ABA11FA206B1A56D46FA3C7A0F15E8 /* MainProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		0CAA4D3AEA2678A6C4B7F82091A3D8C2 /* Pods_TableauxUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableauxUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9D0FC674167D0599D250E8B7C1D987 /* TableauxUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableauxUI-umbrella.h"; sourceTree = "<group>"; };
+		13C7D72C4FC3EA5B6F87268EA53FB568 /* TableauxUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableauxUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C7E721BE045FCB45AAF92731B0636F /* Pods-TableauxUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A000EAA4E8207D99A76B8ED08BC8F7D /* Pods-TableauxUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableauxUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1A06CF82C7B5CB750C63F79BF78414CA /* TableauxUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TableauxUI.modulemap; sourceTree = "<group>"; };
 		232766552D541EC3726F922987B6E99D /* Pods-TableauxUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Tests-Info.plist"; sourceTree = "<group>"; };
-		23881EA744142F6F9860214518590C73 /* TableauxUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TableauxUI-Info.plist"; sourceTree = "<group>"; };
 		248E4710C551944AD84C794C0E7D1025 /* Pods-TableauxUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableauxUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		253A665BA6DAECDBA70A4B2CF731E6B6 /* TableauxUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableauxUI-prefix.pch"; sourceTree = "<group>"; };
 		2731C8283424D65621D7BC48BF04C218 /* Pods-TableauxUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableauxUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		29E034853AA24775CD3CA8D173CB64A6 /* Pods-TableauxUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TableauxUI_Tests.modulemap"; sourceTree = "<group>"; };
-		2B72083503ED40C08711959AA78C6800 /* TableauxUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableauxUI-dummy.m"; sourceTree = "<group>"; };
-		30F22958369EB6D06E73D3335330C313 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3157E8FE647038BECB72F1F662F53A5F /* Pods-TableauxUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AC27B7E89B85C18EEE83B4F8BB822AA /* Pods-TableauxUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableauxUI_Example-Info.plist"; sourceTree = "<group>"; };
+		3E7147D258FE3717F6BAA230F3F2A00D /* TableauxPort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxPort.swift; sourceTree = "<group>"; };
 		4308052B0DC0C06E28704358C57E0B9A /* Pods-TableauxUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableauxUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		45F61E6B07AA45258BD6121020456A39 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TableauxUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4D2371D1B9A713FA3C4037351D36CB60 /* BucketAdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BucketAdapterProtocols.swift; sourceTree = "<group>"; };
+		4F10F25AD2012E268731547C7137B696 /* TableMatrixStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableMatrixStructs.swift; sourceTree = "<group>"; };
 		5B2C620CD41D206EC494CB957B8B9598 /* Pods-TableauxUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableauxUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5C354295C411F76BFAC097C656A2CC14 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
-		5FC2DDE01F170A04FD505689F87A0D20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		650C321BDF79E8CB9B3DCF2FA2CAFC4F /* TableauxUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableauxUI.xcconfig; sourceTree = "<group>"; };
-		88A5F1D04ADBCC7CD16125666D63120A /* TableauxUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TableauxUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FB87E79853B4A87331742411D68906B /* TableauxDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxDataSource.swift; sourceTree = "<group>"; };
+		708331BD1A89F6F8A110C1B4045B71A1 /* TableViewDelegateAdapterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewDelegateAdapterProtocol.swift; sourceTree = "<group>"; };
+		74D004DC0AB60B7F18BB2953F77495EC /* TableauViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauViewAdapter.swift; sourceTree = "<group>"; };
+		75D3CF12FEFDCC48CA96B5B582E5C53B /* TableTensor+TableViewDataSourceAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+TableViewDataSourceAdapter.swift"; sourceTree = "<group>"; };
+		8D5911CFDF22469C0805CC96AE5C4A18 /* Tableau.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tableau.swift; sourceTree = "<group>"; };
+		8F1D29F0226D2292165B434A33A1DA5D /* TableauCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauCell.swift; sourceTree = "<group>"; };
+		8F387101B72C5679B490D40B89101770 /* TableauxUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableauxUI-dummy.m"; sourceTree = "<group>"; };
+		954FEA053AC632AE2F76000332740087 /* TableauxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxView.swift; sourceTree = "<group>"; };
+		999D27550DBEE1087F0D0ED00FF22FE5 /* TableauViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B8FFA78AD0E892B8CC44F64D5B692A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A21C4D7B000589ADB5371BE07A2F21E6 /* Pods-TableauxUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableauxUI_Example-dummy.m"; sourceTree = "<group>"; };
+		A5A2C2025DD09856B118D1963968F954 /* TableauxDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauxDelegate.swift; sourceTree = "<group>"; };
+		B15E32FF61DDB56E03985533AA694F96 /* TableauxUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TableauxUI.modulemap; sourceTree = "<group>"; };
+		B2410CED2824F05F55BFB1A017C37DE2 /* TableauProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableauProtocols.swift; sourceTree = "<group>"; };
+		B6E5CA14C072F9C00097A8448C593CB6 /* TableTensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableTensor.swift; sourceTree = "<group>"; };
+		B6EC0FB26613406AF779B5C2B226632C /* TableTensor+InformationAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+InformationAdapter.swift"; sourceTree = "<group>"; };
 		B99C8638C67CB46948D2BF6B7D9C6320 /* Pods-TableauxUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableauxUI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C9E643CDBFB90F29A5F72655AA9D7DF1 /* Pods_TableauxUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableauxUI_Tests.framework; path = "Pods-TableauxUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1E357FD2611CDB01A792DE358EE72D9 /* TableauxUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableauxUI-prefix.pch"; sourceTree = "<group>"; };
+		BF1540CCFE0C4721BCB36416D028C6C7 /* TableauxUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TableauxUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C07F74D0A719871BC6BF2625E7EAEAB5 /* TableTensor+PaintAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+PaintAdapter.swift"; sourceTree = "<group>"; };
+		C28ABBD6F7CA7E690945A829556836B2 /* TableTensor+BucketAdapter4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+BucketAdapter4.swift"; sourceTree = "<group>"; };
+		C9E643CDBFB90F29A5F72655AA9D7DF1 /* Pods_TableauxUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableauxUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90801FAE0E2940276F9F4FA3941B53D /* TableTensor+BucketAdapter1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+BucketAdapter1.swift"; sourceTree = "<group>"; };
+		EC3EE7F2812629028129B0EAB4C0888F /* TableTensor+TableViewDelegateAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TableTensor+TableViewDelegateAdapter.swift"; sourceTree = "<group>"; };
+		EF9700AA66292D357DFE4B9792A7150C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F0DFCCDF85662452BD0944F17A11E202 /* Pods-TableauxUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableauxUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F199C1193317A42D1A4C92A967DD7287 /* Pods-TableauxUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableauxUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F31954199E17B577BDCD7AF8D1A71CF8 /* Pods-TableauxUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TableauxUI_Example.modulemap"; sourceTree = "<group>"; };
+		F84C3D053A8E016D9DD81573796469FD /* TableauxUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TableauxUI-Info.plist"; sourceTree = "<group>"; };
+		F9DB830CFB2D568D76031F0F2ED3F982 /* TableauxUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableauxUI.xcconfig; sourceTree = "<group>"; };
 		FAF5F3782976818E51F5C981CC3DD46B /* Pods-TableauxUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableauxUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		FAF67A583A8D502282DD9F0D2B09310B /* TableViewDataSourceAdapterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceAdapterProtocol.swift; sourceTree = "<group>"; };
 		FF616CF51B551FCDA5127E696ADBDE20 /* Pods-TableauxUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableauxUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56B55D0E9331275F5B71E3D97D5D408A /* Frameworks */ = {
+		ACE1B7B3FEC1368B66F30D9BC7CBFA87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D733AAE10645F133E4BF75B17D2BBD5E /* Foundation.framework in Frameworks */,
+				F14C791ABE9957A105949BD02E03D37C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,16 +139,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02A554F7788D6175E6DCF9D634C5DD0C /* TableauxUI */ = {
+		00B0541136745D170245D7A3B57A6ADB /* PaintAdapters */ = {
 			isa = PBXGroup;
 			children = (
-				45F61E6B07AA45258BD6121020456A39 /* ReplaceMe.swift */,
-				436AC934BE9EC72BADADED78DF5337FF /* Blink */,
-				6A2CBC3B0782C0B4C6C66CE39A1D815E /* Pod */,
-				7356425FD6E60133E05A0DB7600DE66A /* Support Files */,
+				C07F74D0A719871BC6BF2625E7EAEAB5 /* TableTensor+PaintAdapter.swift */,
+			);
+			path = PaintAdapters;
+			sourceTree = "<group>";
+		};
+		023142BEB74096AEAD23045BA866ABFE /* TableViewAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				75D3CF12FEFDCC48CA96B5B582E5C53B /* TableTensor+TableViewDataSourceAdapter.swift */,
+				EC3EE7F2812629028129B0EAB4C0888F /* TableTensor+TableViewDelegateAdapter.swift */,
+			);
+			path = TableViewAdapters;
+			sourceTree = "<group>";
+		};
+		0ED059B605C67476DB8457DC77DA2AFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B15E32FF61DDB56E03985533AA694F96 /* TableauxUI.modulemap */,
+				F9DB830CFB2D568D76031F0F2ED3F982 /* TableauxUI.xcconfig */,
+				8F387101B72C5679B490D40B89101770 /* TableauxUI-dummy.m */,
+				F84C3D053A8E016D9DD81573796469FD /* TableauxUI-Info.plist */,
+				253A665BA6DAECDBA70A4B2CF731E6B6 /* TableauxUI-prefix.pch */,
+				0F9D0FC674167D0599D250E8B7C1D987 /* TableauxUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TableauxUI";
+			sourceTree = "<group>";
+		};
+		12303FEB58674F726A1D30A8A501C2B5 /* TableauxUI */ = {
+			isa = PBXGroup;
+			children = (
+				A767A481A3F4ECDDC79DFC6C80CC063F /* ParentClasses */,
+				61E48932BD8314D714471D99526B8AB1 /* Pod */,
+				9369F45281E6F5166075E7A71412B2CA /* Protocols */,
+				0ED059B605C67476DB8457DC77DA2AFD /* Support Files */,
+				7E54C81D61439F2AF569B2577DB40B63 /* Tableaux */,
+				9224C3934B7522CBAA8BDEFB3C2A0A04 /* TableTensor */,
 			);
 			name = TableauxUI;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		2085BEC6FED3B5091B3385056C47A6E7 /* InformationAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0FB26613406AF779B5C2B226632C /* TableTensor+InformationAdapter.swift */,
+			);
+			path = InformationAdapter;
 			sourceTree = "<group>";
 		};
 		21813739C11C4BA00DA2D3B1077C71FA /* Pods-TableauxUI_Example */ = {
@@ -130,43 +209,91 @@
 			path = "Target Support Files/Pods-TableauxUI_Example";
 			sourceTree = "<group>";
 		};
-		436AC934BE9EC72BADADED78DF5337FF /* Blink */ = {
+		35F2C897ABAC22560315FE7041FA188F /* Bucket */ = {
 			isa = PBXGroup;
 			children = (
-				5C354295C411F76BFAC097C656A2CC14 /* BlinkingLabel.swift */,
+				4D2371D1B9A713FA3C4037351D36CB60 /* BucketAdapterProtocols.swift */,
 			);
-			name = Blink;
-			path = TableauxUI/Classes/Blink;
+			path = Bucket;
 			sourceTree = "<group>";
 		};
-		6A2CBC3B0782C0B4C6C66CE39A1D815E /* Pod */ = {
+		5A7160FD0844E72DA7BE4CE45B402F36 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
-				30F22958369EB6D06E73D3335330C313 /* LICENSE */,
-				5FC2DDE01F170A04FD505689F87A0D20 /* README.md */,
-				88A5F1D04ADBCC7CD16125666D63120A /* TableauxUI.podspec */,
+				5FB87E79853B4A87331742411D68906B /* TableauxDataSource.swift */,
+				A5A2C2025DD09856B118D1963968F954 /* TableauxDelegate.swift */,
+				3E7147D258FE3717F6BAA230F3F2A00D /* TableauxPort.swift */,
+				954FEA053AC632AE2F76000332740087 /* TableauxView.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		61E48932BD8314D714471D99526B8AB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF9700AA66292D357DFE4B9792A7150C /* LICENSE */,
+				A1B8FFA78AD0E892B8CC44F64D5B692A /* README.md */,
+				BF1540CCFE0C4721BCB36416D028C6C7 /* TableauxUI.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7356425FD6E60133E05A0DB7600DE66A /* Support Files */ = {
+		7E54C81D61439F2AF569B2577DB40B63 /* Tableaux */ = {
 			isa = PBXGroup;
 			children = (
-				1A06CF82C7B5CB750C63F79BF78414CA /* TableauxUI.modulemap */,
-				650C321BDF79E8CB9B3DCF2FA2CAFC4F /* TableauxUI.xcconfig */,
-				2B72083503ED40C08711959AA78C6800 /* TableauxUI-dummy.m */,
-				23881EA744142F6F9860214518590C73 /* TableauxUI-Info.plist */,
-				D1E357FD2611CDB01A792DE358EE72D9 /* TableauxUI-prefix.pch */,
-				151916C0FE8B218D05B2C0CD36C5FB73 /* TableauxUI-umbrella.h */,
+				8D5911CFDF22469C0805CC96AE5C4A18 /* Tableau.swift */,
+				5A7160FD0844E72DA7BE4CE45B402F36 /* UITableView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TableauxUI";
+			name = Tableaux;
+			path = TableauxUI/Classes/Tableaux;
 			sourceTree = "<group>";
 		};
-		9DE670C982FB92CBA99E344500A87496 /* Development Pods */ = {
+		8FFF00E0E58A685D17E43417CE115588 /* Structs */ = {
 			isa = PBXGroup;
 			children = (
-				02A554F7788D6175E6DCF9D634C5DD0C /* TableauxUI */,
+				4F10F25AD2012E268731547C7137B696 /* TableMatrixStructs.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		91CF499906F22C293DB360CDEB95CC45 /* BucketAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				E90801FAE0E2940276F9F4FA3941B53D /* TableTensor+BucketAdapter1.swift */,
+				C28ABBD6F7CA7E690945A829556836B2 /* TableTensor+BucketAdapter4.swift */,
+			);
+			path = BucketAdapters;
+			sourceTree = "<group>";
+		};
+		9224C3934B7522CBAA8BDEFB3C2A0A04 /* TableTensor */ = {
+			isa = PBXGroup;
+			children = (
+				B6E5CA14C072F9C00097A8448C593CB6 /* TableTensor.swift */,
+				91CF499906F22C293DB360CDEB95CC45 /* BucketAdapters */,
+				2085BEC6FED3B5091B3385056C47A6E7 /* InformationAdapter */,
+				00B0541136745D170245D7A3B57A6ADB /* PaintAdapters */,
+				A6D09FC6AEB54A92E29B07B151EC3827 /* Protocols */,
+				8FFF00E0E58A685D17E43417CE115588 /* Structs */,
+				023142BEB74096AEAD23045BA866ABFE /* TableViewAdapters */,
+			);
+			name = TableTensor;
+			path = TableauxUI/Classes/TableTensor;
+			sourceTree = "<group>";
+		};
+		9369F45281E6F5166075E7A71412B2CA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				07ABA11FA206B1A56D46FA3C7A0F15E8 /* MainProtocols.swift */,
+				B2410CED2824F05F55BFB1A017C37DE2 /* TableauProtocols.swift */,
+			);
+			name = Protocols;
+			path = TableauxUI/Classes/Protocols;
+			sourceTree = "<group>";
+		};
+		97B39E4439225E8CA073C7E118F00104 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12303FEB58674F726A1D30A8A501C2B5 /* TableauxUI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -185,6 +312,26 @@
 			);
 			name = "Pods-TableauxUI_Tests";
 			path = "Target Support Files/Pods-TableauxUI_Tests";
+			sourceTree = "<group>";
+		};
+		A6D09FC6AEB54A92E29B07B151EC3827 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				35F2C897ABAC22560315FE7041FA188F /* Bucket */,
+				E5D67F46B91F7A08666DCB49C6F7DFF2 /* Table */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A767A481A3F4ECDDC79DFC6C80CC063F /* ParentClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D29F0226D2292165B434A33A1DA5D /* TableauCell.swift */,
+				74D004DC0AB60B7F18BB2953F77495EC /* TableauViewAdapter.swift */,
+				999D27550DBEE1087F0D0ED00FF22FE5 /* TableauViewController.swift */,
+			);
+			name = ParentClasses;
+			path = TableauxUI/Classes/ParentClasses;
 			sourceTree = "<group>";
 		};
 		AE36BB50529392C3D52F60250C603EC4 /* Products */ = {
@@ -218,7 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9DE670C982FB92CBA99E344500A87496 /* Development Pods */,
+				97B39E4439225E8CA073C7E118F00104 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AE36BB50529392C3D52F60250C603EC4 /* Products */,
 				CAF8C9F755E306ED4B3093F1C3F42E78 /* Targets Support Files */,
@@ -233,14 +380,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E5D67F46B91F7A08666DCB49C6F7DFF2 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				FAF67A583A8D502282DD9F0D2B09310B /* TableViewDataSourceAdapterProtocol.swift */,
+				708331BD1A89F6F8A110C1B4045B71A1 /* TableViewDelegateAdapterProtocol.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F6CF0DC64461A3921C2C0C6B490E98A /* Headers */ = {
+		22A32B389B6F1C69B2132EAB0607482C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146DC592643D74A0B02B3CB18BCB08E3 /* TableauxUI-umbrella.h in Headers */,
+				8377E45CDA4F3AC44DAE54058CF9410B /* TableauxUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +421,12 @@
 /* Begin PBXNativeTarget section */
 		7E3656C3CD39489CAB9EA88EDD35F1BA /* TableauxUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1D975F1C9DF330FFB7F234A9E30997C /* Build configuration list for PBXNativeTarget "TableauxUI" */;
+			buildConfigurationList = 2D924BE9D793289DB7DD91764B4DE096 /* Build configuration list for PBXNativeTarget "TableauxUI" */;
 			buildPhases = (
-				1F6CF0DC64461A3921C2C0C6B490E98A /* Headers */,
-				EAE4D5ACB6FA384E734D81946F44E94D /* Sources */,
-				56B55D0E9331275F5B71E3D97D5D408A /* Frameworks */,
-				733E3C6A40081338EBBDB07BD3D48EDD /* Resources */,
+				22A32B389B6F1C69B2132EAB0607482C /* Headers */,
+				38E422C02B9B4857AD23D5EF7593FB7B /* Sources */,
+				ACE1B7B3FEC1368B66F30D9BC7CBFA87 /* Frameworks */,
+				8C607E980E1FEF84C2AF7800B332C82A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -355,7 +511,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		733E3C6A40081338EBBDB07BD3D48EDD /* Resources */ = {
+		8C607E980E1FEF84C2AF7800B332C82A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,13 +544,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAE4D5ACB6FA384E734D81946F44E94D /* Sources */ = {
+		38E422C02B9B4857AD23D5EF7593FB7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42109C641899C840EA1F58BD2EE6056B /* BlinkingLabel.swift in Sources */,
-				54361816942B2AEC5F4722A44B417510 /* ReplaceMe.swift in Sources */,
-				6A89DBE1FD2CE944573C96097CAEF24B /* TableauxUI-dummy.m in Sources */,
+				E0F76D7B7303C77E5F3CBC70B0111076 /* BucketAdapterProtocols.swift in Sources */,
+				EA1722D0DD5494647276ED31AE4710D4 /* MainProtocols.swift in Sources */,
+				0DB7B41EE8C77E970CB19A13F8540069 /* Tableau.swift in Sources */,
+				3DC8D753EC2E47AD3ED3284B0F32050F /* TableauCell.swift in Sources */,
+				629FE1EB91B06A818740A023E0FA12EA /* TableauProtocols.swift in Sources */,
+				BC2C196992F13EB4188CCF8971716E6E /* TableauViewAdapter.swift in Sources */,
+				72EA5F843E8870C92D4977617929A5E1 /* TableauViewController.swift in Sources */,
+				A7364C02B2DAEA3D7C9DE6E5146F80BC /* TableauxDataSource.swift in Sources */,
+				FE3C8B8B4E0EE66203C66DABC59AD8F1 /* TableauxDelegate.swift in Sources */,
+				012AA9EC67B7B8D39B8066726FBFD2E8 /* TableauxPort.swift in Sources */,
+				50B0B6290AAE34779682DFA0738DC02E /* TableauxUI-dummy.m in Sources */,
+				D574ACC16B90A58DDB1FB9C5AB2AF94D /* TableauxView.swift in Sources */,
+				9704B74BA26EA583306ACA6F1B202A07 /* TableMatrixStructs.swift in Sources */,
+				7423CCD3C8164C45A5AAAA20669A5400 /* TableTensor+BucketAdapter1.swift in Sources */,
+				64D81C85FB3AC2B7B7A571212A368778 /* TableTensor+BucketAdapter4.swift in Sources */,
+				2D2A86ECB77BE39B2C0C6904B62C1FD4 /* TableTensor+InformationAdapter.swift in Sources */,
+				BB561F1C0F3FA6843B6769AA981EFEBA /* TableTensor+PaintAdapter.swift in Sources */,
+				736DF086E677E79C5F4CC700252BB2E7 /* TableTensor+TableViewDataSourceAdapter.swift in Sources */,
+				102C4A4D2D863FCA5B3DF78016441BEA /* TableTensor+TableViewDelegateAdapter.swift in Sources */,
+				6D828137BF12D224840F1D443376923C /* TableTensor.swift in Sources */,
+				F2085011EF0CB3855AD578B843E482CF /* TableViewDataSourceAdapterProtocol.swift in Sources */,
+				B79C8FB3A8C3481491E2B47C65442365 /* TableViewDelegateAdapterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,199 +591,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		59BE6BCA451DE6554082D6048292A9C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF616CF51B551FCDA5127E696ADBDE20 /* Pods-TableauxUI_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7F044BD6AC3F9FDE65817AB9FCAAC142 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2731C8283424D65621D7BC48BF04C218 /* Pods-TableauxUI_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		83C647C213051C6DE15BFDAA8277EC8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0DFCCDF85662452BD0944F17A11E202 /* Pods-TableauxUI_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		91A7E1FC8264BFE473D2A6BE46DBAA4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650C321BDF79E8CB9B3DCF2FA2CAFC4F /* TableauxUI.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TableauxUI/TableauxUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TableauxUI/TableauxUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TableauxUI/TableauxUI.modulemap";
-				PRODUCT_MODULE_NAME = TableauxUI;
-				PRODUCT_NAME = TableauxUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -672,10 +655,106 @@
 			};
 			name = Debug;
 		};
-		B9E8B4FC226A1511DCF8795699FB9DFE /* Debug */ = {
+		345B2DBA4F23B571FA3F882FEA2EDE47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650C321BDF79E8CB9B3DCF2FA2CAFC4F /* TableauxUI.xcconfig */;
+			baseConfigurationReference = 2731C8283424D65621D7BC48BF04C218 /* Pods-TableauxUI_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		46D4F1AAB4F0D470B271528E83E53579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DB830CFB2D568D76031F0F2ED3F982 /* TableauxUI.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,7 +767,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TableauxUI/TableauxUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TableauxUI/TableauxUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TableauxUI/TableauxUI.modulemap";
 				PRODUCT_MODULE_NAME = TableauxUI;
@@ -696,18 +775,21 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CE90C9EA606F672E5348245019A7CA47 /* Release */ = {
+		825390A21A8607D7F0F4EC3262180E06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4308052B0DC0C06E28704358C57E0B9A /* Pods-TableauxUI_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -719,7 +801,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example.modulemap";
@@ -737,14 +819,127 @@
 			};
 			name = Release;
 		};
+		8D69CDC414FAD63A543C990D360AD995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DFCCDF85662452BD0944F17A11E202 /* Pods-TableauxUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9C5B01E1BF1D560076F6BF55194D83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF616CF51B551FCDA5127E696ADBDE20 /* Pods-TableauxUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDEC8CEC02AD4B9E0113A378B03D6329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DB830CFB2D568D76031F0F2ED3F982 /* TableauxUI.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TableauxUI/TableauxUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TableauxUI/TableauxUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TableauxUI/TableauxUI.modulemap";
+				PRODUCT_MODULE_NAME = TableauxUI;
+				PRODUCT_NAME = TableauxUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		10332386551996F71586E492615E109E /* Build configuration list for PBXNativeTarget "Pods-TableauxUI_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59BE6BCA451DE6554082D6048292A9C2 /* Debug */,
-				83C647C213051C6DE15BFDAA8277EC8C /* Release */,
+				B9C5B01E1BF1D560076F6BF55194D83B /* Debug */,
+				8D69CDC414FAD63A543C990D360AD995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D924BE9D793289DB7DD91764B4DE096 /* Build configuration list for PBXNativeTarget "TableauxUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEC8CEC02AD4B9E0113A378B03D6329 /* Debug */,
+				46D4F1AAB4F0D470B271528E83E53579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,17 +947,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1D975F1C9DF330FFB7F234A9E30997C /* Build configuration list for PBXNativeTarget "TableauxUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9E8B4FC226A1511DCF8795699FB9DFE /* Debug */,
-				91A7E1FC8264BFE473D2A6BE46DBAA4C /* Release */,
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -770,8 +956,8 @@
 		DE75515514D07A84CB01356A61A5009C /* Build configuration list for PBXNativeTarget "Pods-TableauxUI_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F044BD6AC3F9FDE65817AB9FCAAC142 /* Debug */,
-				CE90C9EA606F672E5348245019A7CA47 /* Release */,
+				345B2DBA4F23B571FA3F882FEA2EDE47 /* Debug */,
+				825390A21A8607D7F0F4EC3262180E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

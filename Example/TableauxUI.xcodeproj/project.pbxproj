@@ -8,8 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1960E3CF1E19C6BF59DF3801 /* Pods_TableauxUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BA68D761A104600FA557EB /* Pods_TableauxUI_Tests.framework */; };
+		537415C022F71D7000CA9CFB /* ProtocolHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374159C22F71D7000CA9CFB /* ProtocolHelpers.swift */; };
+		537415C122F71D7000CA9CFB /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5374159F22F71D7000CA9CFB /* MyViewModel.swift */; };
+		537415C222F71D7000CA9CFB /* MyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415A122F71D7000CA9CFB /* MyCoordinator.swift */; };
+		537415C322F71D7000CA9CFB /* BlueCellViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415A322F71D7000CA9CFB /* BlueCellViewData.swift */; };
+		537415C422F71D7000CA9CFB /* RedCellViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415A422F71D7000CA9CFB /* RedCellViewData.swift */; };
+		537415C522F71D7000CA9CFB /* GreenCellViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415A522F71D7000CA9CFB /* GreenCellViewData.swift */; };
+		537415C622F71D7000CA9CFB /* MyGreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415A822F71D7000CA9CFB /* MyGreenCell.swift */; };
+		537415C722F71D7000CA9CFB /* MyBlueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415A922F71D7000CA9CFB /* MyBlueCell.swift */; };
+		537415C822F71D7000CA9CFB /* MyRedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415AA22F71D7000CA9CFB /* MyRedCell.swift */; };
+		537415C922F71D7000CA9CFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415AC22F71D7000CA9CFB /* ViewController.swift */; };
+		537415CA22F71D7000CA9CFB /* MyViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415AE22F71D7000CA9CFB /* MyViewAdapter.swift */; };
+		537415CB22F71D7000CA9CFB /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415B122F71D7000CA9CFB /* SchoolViewModel.swift */; };
+		537415CC22F71D7000CA9CFB /* SchoolDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415B322F71D7000CA9CFB /* SchoolDataManager.swift */; };
+		537415CD22F71D7000CA9CFB /* SchoolCellViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415B522F71D7000CA9CFB /* SchoolCellViewData.swift */; };
+		537415CE22F71D7000CA9CFB /* SchoolModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415B622F71D7000CA9CFB /* SchoolModels.swift */; };
+		537415D022F71D7000CA9CFB /* SchoolTableauCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415B922F71D7000CA9CFB /* SchoolTableauCell.swift */; };
+		537415D122F71D7000CA9CFB /* SchoolCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415BB22F71D7000CA9CFB /* SchoolCoordinator.swift */; };
+		537415D222F71D7000CA9CFB /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415BD22F71D7000CA9CFB /* SchoolViewController.swift */; };
+		537415D322F71D7000CA9CFB /* SchoolViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537415BF22F71D7000CA9CFB /* SchoolViewAdapter.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9862A4ED50EDA8A5E65BB450 /* Pods_TableauxUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7C25243548B0FA54388628 /* Pods_TableauxUI_Example.framework */; };
@@ -28,12 +46,30 @@
 /* Begin PBXFileReference section */
 		24FD559D8910D8854D9A6054 /* TableauxUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TableauxUI.podspec; path = ../TableauxUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		28BA68D761A104600FA557EB /* Pods_TableauxUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableauxUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5374159C22F71D7000CA9CFB /* ProtocolHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolHelpers.swift; sourceTree = "<group>"; };
+		5374159F22F71D7000CA9CFB /* MyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		537415A122F71D7000CA9CFB /* MyCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCoordinator.swift; sourceTree = "<group>"; };
+		537415A322F71D7000CA9CFB /* BlueCellViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueCellViewData.swift; sourceTree = "<group>"; };
+		537415A422F71D7000CA9CFB /* RedCellViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCellViewData.swift; sourceTree = "<group>"; };
+		537415A522F71D7000CA9CFB /* GreenCellViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenCellViewData.swift; sourceTree = "<group>"; };
+		537415A822F71D7000CA9CFB /* MyGreenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGreenCell.swift; sourceTree = "<group>"; };
+		537415A922F71D7000CA9CFB /* MyBlueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBlueCell.swift; sourceTree = "<group>"; };
+		537415AA22F71D7000CA9CFB /* MyRedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRedCell.swift; sourceTree = "<group>"; };
+		537415AC22F71D7000CA9CFB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		537415AE22F71D7000CA9CFB /* MyViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewAdapter.swift; sourceTree = "<group>"; };
+		537415B122F71D7000CA9CFB /* SchoolViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		537415B322F71D7000CA9CFB /* SchoolDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolDataManager.swift; sourceTree = "<group>"; };
+		537415B522F71D7000CA9CFB /* SchoolCellViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCellViewData.swift; sourceTree = "<group>"; };
+		537415B622F71D7000CA9CFB /* SchoolModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolModels.swift; sourceTree = "<group>"; };
+		537415B922F71D7000CA9CFB /* SchoolTableauCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableauCell.swift; sourceTree = "<group>"; };
+		537415BB22F71D7000CA9CFB /* SchoolCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCoordinator.swift; sourceTree = "<group>"; };
+		537415BD22F71D7000CA9CFB /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		537415BF22F71D7000CA9CFB /* SchoolViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewAdapter.swift; sourceTree = "<group>"; };
 		54D5DBF651517A862BAAA8CE /* Pods-TableauxUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableauxUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TableauxUI_Tests/Pods-TableauxUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		553F93824B327C53277F29FB /* Pods-TableauxUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableauxUI_Example.release.xcconfig"; path = "Target Support Files/Pods-TableauxUI_Example/Pods-TableauxUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TableauxUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableauxUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TableauxUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableauxUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +121,157 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5374159B22F71D6F00CA9CFB /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		5374159D22F71D7000CA9CFB /* Flow0 */ = {
+			isa = PBXGroup;
+			children = (
+				5374159E22F71D7000CA9CFB /* ViewModel */,
+				537415A022F71D7000CA9CFB /* Coordinator */,
+				537415A222F71D7000CA9CFB /* Model */,
+				537415A622F71D7000CA9CFB /* View */,
+				537415AB22F71D7000CA9CFB /* ViewController */,
+				537415AD22F71D7000CA9CFB /* ViewAdapter */,
+			);
+			path = Flow0;
+			sourceTree = "<group>";
+		};
+		5374159E22F71D7000CA9CFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5374159F22F71D7000CA9CFB /* MyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		537415A022F71D7000CA9CFB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				537415A122F71D7000CA9CFB /* MyCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		537415A222F71D7000CA9CFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				537415A322F71D7000CA9CFB /* BlueCellViewData.swift */,
+				537415A422F71D7000CA9CFB /* RedCellViewData.swift */,
+				537415A522F71D7000CA9CFB /* GreenCellViewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		537415A622F71D7000CA9CFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				537415A722F71D7000CA9CFB /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		537415A722F71D7000CA9CFB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				537415A822F71D7000CA9CFB /* MyGreenCell.swift */,
+				537415A922F71D7000CA9CFB /* MyBlueCell.swift */,
+				537415AA22F71D7000CA9CFB /* MyRedCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		537415AB22F71D7000CA9CFB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				537415AC22F71D7000CA9CFB /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		537415AD22F71D7000CA9CFB /* ViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				537415AE22F71D7000CA9CFB /* MyViewAdapter.swift */,
+			);
+			path = ViewAdapter;
+			sourceTree = "<group>";
+		};
+		537415AF22F71D7000CA9CFB /* Schools */ = {
+			isa = PBXGroup;
+			children = (
+				537415B022F71D7000CA9CFB /* ViewModel */,
+				537415B222F71D7000CA9CFB /* DataManager */,
+				537415B422F71D7000CA9CFB /* Model */,
+				537415B822F71D7000CA9CFB /* View */,
+				537415BA22F71D7000CA9CFB /* SchoolCoordinator */,
+				537415BC22F71D7000CA9CFB /* ViewController */,
+				537415BE22F71D7000CA9CFB /* ViewAdapter */,
+			);
+			path = Schools;
+			sourceTree = "<group>";
+		};
+		537415B022F71D7000CA9CFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				537415B122F71D7000CA9CFB /* SchoolViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		537415B222F71D7000CA9CFB /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				537415B322F71D7000CA9CFB /* SchoolDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		537415B422F71D7000CA9CFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				537415B522F71D7000CA9CFB /* SchoolCellViewData.swift */,
+				537415B622F71D7000CA9CFB /* SchoolModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		537415B822F71D7000CA9CFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				537415B922F71D7000CA9CFB /* SchoolTableauCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		537415BA22F71D7000CA9CFB /* SchoolCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				537415BB22F71D7000CA9CFB /* SchoolCoordinator.swift */,
+			);
+			path = SchoolCoordinator;
+			sourceTree = "<group>";
+		};
+		537415BC22F71D7000CA9CFB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				537415BD22F71D7000CA9CFB /* SchoolViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		537415BE22F71D7000CA9CFB /* ViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				537415BF22F71D7000CA9CFB /* SchoolViewAdapter.swift */,
+			);
+			path = ViewAdapter;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +296,11 @@
 		607FACD21AFB9204008FA782 /* Example for TableauxUI */ = {
 			isa = PBXGroup;
 			children = (
+				5374159D22F71D7000CA9CFB /* Flow0 */,
+				5374159C22F71D7000CA9CFB /* ProtocolHelpers.swift */,
+				537415AF22F71D7000CA9CFB /* Schools */,
+				5374159B22F71D6F00CA9CFB /* Simple */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -323,8 +513,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				537415CD22F71D7000CA9CFB /* SchoolCellViewData.swift in Sources */,
+				537415C522F71D7000CA9CFB /* GreenCellViewData.swift in Sources */,
+				537415D122F71D7000CA9CFB /* SchoolCoordinator.swift in Sources */,
+				537415C322F71D7000CA9CFB /* BlueCellViewData.swift in Sources */,
+				537415C622F71D7000CA9CFB /* MyGreenCell.swift in Sources */,
+				537415C022F71D7000CA9CFB /* ProtocolHelpers.swift in Sources */,
+				537415C122F71D7000CA9CFB /* MyViewModel.swift in Sources */,
+				537415CB22F71D7000CA9CFB /* SchoolViewModel.swift in Sources */,
+				537415CA22F71D7000CA9CFB /* MyViewAdapter.swift in Sources */,
+				537415CE22F71D7000CA9CFB /* SchoolModels.swift in Sources */,
+				537415C922F71D7000CA9CFB /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				537415C722F71D7000CA9CFB /* MyBlueCell.swift in Sources */,
+				537415C222F71D7000CA9CFB /* MyCoordinator.swift in Sources */,
+				537415D322F71D7000CA9CFB /* SchoolViewAdapter.swift in Sources */,
+				537415D022F71D7000CA9CFB /* SchoolTableauCell.swift in Sources */,
+				537415D222F71D7000CA9CFB /* SchoolViewController.swift in Sources */,
+				537415C422F71D7000CA9CFB /* RedCellViewData.swift in Sources */,
+				537415CC22F71D7000CA9CFB /* SchoolDataManager.swift in Sources */,
+				537415C822F71D7000CA9CFB /* MyRedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -452,6 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableauxUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -467,6 +676,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableauxUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
