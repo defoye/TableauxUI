@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/TableauxUI.svg?style=flat)](https://cocoapods.org/pods/TableauxUI)
 [![Platform](https://img.shields.io/cocoapods/p/TableauxUI.svg?style=flat)](https://cocoapods.org/pods/TableauxUI)
 
+<!--ts-->
+   * [Example](#example)
+   * [Requirements](#requirements)
+   * [Installation](#installation)
+   * [Usage](#usage)
+<!--te-->
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
