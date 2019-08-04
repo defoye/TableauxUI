@@ -20,6 +20,103 @@ it, simply add the following line to your Podfile:
 pod 'TableauxUI'
 ```
 
+## Usage
+
+Build UITableViews by simply adding structs to a Tableau!
+
+First, create a cell, and add an adapter to your model.
+
+```swift
+struct GreenModel {
+    let name: String = "Green"
+}
+
+extension GreenModel: TableauDataAdapter {
+    var identifier: String {
+	return GreenTableauCell.reuseIdentifier
+    }
+}
+
+class GreenTableauCell: TableauCell {
+    func configure(data: Any?) {
+    	self.backgroundColor = .green
+    }
+}
+```
+
+The TableauDataAdapter passes a unique identifier to your TableauxUIView so that views can be recycled. Here we pass a generated identifier by using an extension on the UIView:
+
+```swift
+public protocol ReusableView {
+    static var reuseIdentifier: String { get }
+}
+
+extension UIView: ReusableView {}
+```
+
+Next, create a GreenViewAdapter and give it a tableau to paint your view:
+
+```swift
+enum Tableaux: Int, CaseIterable {
+    case GreenTableau
+}
+
+class GreenViewAdapter {
+    let tableau: Tableau(numberReservedTableaux: Tableaux.allCases.count)
+}
+```
+
+```swift
+extension GreenViewAdapter {
+    func buildGreenTableau(index: Tableau, reload: @escaping (() -> Void)) {
+    	let paintAdapter = tableau.paintAdapter()
+        let tenGreenModels = Array.init(repeating: GreenModel(), count: 10)
+        
+        paintAdapter.paint(sectionModel: tenGreenModels, at: index.rawValue)
+		
+        reloadBlock()
+    }
+}
+```
+
+Connect to the paint adapter to create your painting.  Here, we append 10 Green models to the Tableau. 
+
+And that's pretty much it.  Finally, connect your tableauxUIView to your GreenViewAdapter.
+
+```swift
+class GreenViewController: UIViewController {
+    let viewAdapter: GreenViewAdapter
+    let tableauxView: TableauxUIView
+    let dataSource: DataSource
+    
+    init(viewAdapter: GreenViewAdapter) {
+    	self.viewAdapter = viewAdapter
+        self.tableauxView = TableauxUIView(frame: .zero, style: .plain)
+	self.dataSource = DataSource(tableau: viewAdapter.tableau, tableauxUIView: tableauxView)
+		
+	super.init(nibName: nil, bundle: nil)
+		
+	self.tableauxView.registerCellTypes(types: [GreenTableauCell.self])
+    }
+    
+    public override func viewDidLoad() {
+	super.viewDidLoad()
+        
+	self.view = tableauxView
+		
+	greenViewAdapter.buildGreenTableau {
+	    DispatchQueue.main.async {
+		self.tableauxView.reloadData()
+	    }
+	}
+    }
+}
+```
+
+And of course, feel free to subclass a UITableView and/or a UITableViewCell instead. 
+
+Enjoy!
+
 ## Author
 
 Ernest DeFoy, erniedefoy3@gmail.com
